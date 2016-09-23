@@ -19,6 +19,6 @@ license: GPL-3.0
     import "github.com/mparaiso/expect-go" 
 
     func Test(t *testing.T){
-        // expects "foo" to equal "bar" (which will yield a test error)
-        expect.Expect(t,"foo","bar","example")
+        // expects "want" to equal "got" (which will yield a test error)
+        expect.Expect(t,"want","got","example")
     }
